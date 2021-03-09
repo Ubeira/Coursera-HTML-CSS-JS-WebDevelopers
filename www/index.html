@@ -6,19 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <title>Tempus</title>
+
 </head>
-<body>
+<body onLoad="init()">
     <header>
         <h1>Tempus</h1>
         <nav>
             <ul>
-                <li>Hoy</li>
-                <li>Mañana</li>
-                <li>Semana</li>
+                <li><button onclick="today()">Hoy</button></li>
+                <li><button onclick="tomorrow()">Mañana</button></li>
+                <li><button onclick="week()">Semana</button></li>
             </ul>
         </nav>
     </header>
+    <main>
 
+    </main>
 
 
     <script src="./js/src.js"></script>

@@ -1,0 +1,24 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body header h1 {
+    text-align: center;
+    padding: 2rem;
+    text-decoration: underline;
+}
+
+body header nav ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+body header nav ul li button {
+    background-color: inherit;
+    border: none;
+    padding: 0.5rem;
+}
