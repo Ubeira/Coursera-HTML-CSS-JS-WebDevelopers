@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Ubeira/Tempus/issues"
   },
-  "homepage": "https://github.com/Ubeira/Tempus#readme"
+  "homepage": "https://github.com/Ubeira/Tempus#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  }
 }
